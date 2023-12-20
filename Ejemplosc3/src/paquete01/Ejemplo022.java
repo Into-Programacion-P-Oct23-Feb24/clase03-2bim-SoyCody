@@ -9,7 +9,7 @@ import java.util.Scanner;
  *
  * @author reroes
  */
-public class Ejemplo02 {
+public class Ejemplo022 {
 
     /**
      * @param args the command line arguments
@@ -33,6 +33,9 @@ public class Ejemplo02 {
                 System.out.printf("Ingrese un numero para [%d][%d]\n", 
                         f, c);
                 numero = entrada.nextInt();
+                if (numero % 2 == 0 && numero >= 10){
+                    numero = 0;
+            }
                 arreglo1[f][c] = numero;
             }
         }
