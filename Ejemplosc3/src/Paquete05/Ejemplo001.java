@@ -8,7 +8,7 @@ package Paquete05;
  *
  * @author LAB.ELECT
  */
-public class Ejemplo01 {
+public class Ejemplo001 {
     public static void main(String[] args) {
         int[] arreglo1 = new int[3];
         for (int n = 0; n < arreglo1.length; n++){
